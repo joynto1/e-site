@@ -65,6 +65,10 @@ section .first_part {
     font-family: 'Arvo', serif;
 }
 
+.main_btn:hover {
+    transform: scale(1.1);
+    transition: .5s;
+}
 
 .first p {
     margin-bottom: 10%;
@@ -81,15 +85,15 @@ section .first_part {
 }
 
 .first a:hover {
-    color: rgb(231, 124, 47);
-    background-color: rgb(245, 245, 236);
+    color: rgb(16, 80, 219);
+    background-color: rgb(166, 255, 213);
     transition: .5s;
 
 }
 
 .first a:hover i {
     transform: rotate(90deg);
-    color: aqua;
+    color: rgb(255, 0, 255);
     transition: .5s;
 
 }
@@ -212,6 +216,11 @@ section .first_part .first_logo {
     overflow: hidden;
 }
 
+.product:hover {
+    transform: scale(1.1);
+    transition: .5s;
+}
+
 .product img:hover {
     transform: scale(1.1);
     transition: .5s;
@@ -231,6 +240,11 @@ section .first_part .first_logo {
     background-color: aquamarine;
 }
 
+.see_more:hover {
+    transform: scale(1.1);
+    transition: .5s;
+}
+
 .see_more i {
     margin-left: 10px;
 }
@@ -238,7 +252,7 @@ section .first_part .first_logo {
 .see_more a:hover i {
     transform: rotate(90deg);
     transition: .5s;
-    color: aquamarine;
+    color: rgb(44, 66, 59);
 }
 
 /* third part starting */
